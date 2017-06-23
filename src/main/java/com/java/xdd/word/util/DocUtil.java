@@ -4,7 +4,6 @@ import org.apache.poi.POIXMLDocument;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.usermodel.*;
-import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileOutputStream;
@@ -53,11 +52,22 @@ public class DocUtil {
                 Iterator<XWPFTable> it = doc.getTablesIterator();
                 while (it.hasNext()) {
                     XWPFTable table = it.next();
-                    List<XWPFTableRow> rows = table.getRows();
+                    String text = table.getText();
+                    List<XWPFTableRow> rows = table.getRows(); //获取所有的行
                     for (XWPFTableRow row : rows) {
-                        List<XWPFTableCell> cells = row.getTableCells();
+                        List<XWPFTableCell> cells = row.getTableCells(); //获取所有的列
                         for (XWPFTableCell cell : cells) {
                             List<XWPFParagraph> paragraphListTable = cell.getParagraphs();
+                            XWPFParagraph xwpfParagraph = paragraphListTable.get(0);
+                            String text1 = xwpfParagraph.getText();
+                            IBody body = xwpfParagraph.getBody();
+                            String text2 = cell.getText();
+                            if ("${level}".equals(text2)) {
+                                text2 = text2.replace("${level}", "1");
+                                List<XWPFRun> runs = paragraphListTable.get(0).getRuns();
+                                runs = null;
+                                cell.setText(text2);
+                            }
                             processParagraphs(paragraphListTable, param, doc);
                         }
                     }

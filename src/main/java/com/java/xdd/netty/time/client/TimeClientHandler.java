@@ -2,8 +2,9 @@ package com.java.xdd.netty.time.client;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandlerAdapter;
-import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.*;
+
+import java.net.SocketAddress;
 
 public class TimeClientHandler extends ChannelHandlerAdapter{
     private int counter;
@@ -23,15 +24,92 @@ public class TimeClientHandler extends ChannelHandlerAdapter{
         }
     }
 
+    /**
+     * Channel，如果数据被读取成功，触发该方法
+     * @param ctx
+     * @param msg
+     * @throws Exception
+     */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         String body = (String) msg;
         System.out.println("now is :" + body + " ; the counter is :" + ++counter);
     }
 
+    /**
+     * 读取操作API完成之后，紧接着调用该方法
+     * @param ctx
+     * @throws Exception
+     */
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("读取操作完成！");
+    }
+
+    /**
+     * 异常
+     * @param ctx
+     * @param cause
+     * @throws Exception
+     */
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         System.out.println(cause.getMessage());
         ctx.close();
+    }
+
+    /**
+     * 通道关闭
+     *      ChannelFuture.close()调用时(主动关闭连接)，会主动触发该方法
+     * @param ctx
+     * @param promise
+     * @throws Exception
+     */
+    @Override
+    public void close(ChannelHandlerContext ctx, ChannelPromise promise) throws Exception {
+        System.out.println("通道关闭");
+    }
+
+    /**
+     * 连接销毁
+     *      ChannelFuture.disconnect()调用时(请求断开与远程通信端的连接)，会主动触发该方法
+     * @param ctx
+     * @param promise
+     * @throws Exception
+     */
+    @Override
+    public void disconnect(ChannelHandlerContext ctx, ChannelPromise promise) throws Exception {
+        System.out.println("断开与远程通信端的连接");
+    }
+
+    /**
+     * 客户端主动连接服务器
+     *      ChannelFuture.connect()调用时(客户端使用指定的服务端地址remoteAddress发起连接)，会主动触发该方法
+     * @param ctx
+     * @param remoteAddress
+     * @param localAddress
+     * @param promise
+     * @throws Exception
+     */
+    @Override
+    public void connect(ChannelHandlerContext ctx, SocketAddress remoteAddress, SocketAddress localAddress, ChannelPromise promise) throws Exception {
+        System.out.println("客户端主动连接服务器");
+    }
+
+    /**
+     * 绑定指定本地地址
+     *      ChannelFuture.bind() 调用时(绑定指定的本地Socket地址localAddress)，会主动触发该方法
+     * @param ctx
+     * @param localAddress
+     * @param promise
+     * @throws Exception
+     */
+    @Override
+    public void bind(ChannelHandlerContext ctx, SocketAddress localAddress, ChannelPromise promise) throws Exception {
+        System.out.println("绑定指定地址！");
+        Channel channel = ctx.channel();
+        EventLoop eventLoop = channel.eventLoop();
+        Channel parent = channel.parent();
+        ChannelId id = channel.id();
     }
 }
