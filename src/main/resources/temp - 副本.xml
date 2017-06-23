@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wordDocument>
+    <ignoreSubtree val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+    <DocumentProperties>
+        <Author>jack</Author>
+        <LastAuthor>jack</LastAuthor>
+        <Revision>2</Revision>
+        <TotalTime>0</TotalTime>
+        <Created>2017-06-22T07:06:00Z</Created>
+        <LastSaved>2017-06-22T07:06:00Z</LastSaved>
+        <Pages>1</Pages>
+        <Words>30</Words>
+        <Characters>175</Characters>
+        <Company>Microsoft</Company>
+        <Lines>1</Lines>
+        <Paragraphs>1</Paragraphs>
+        <CharactersWithSpaces>204</CharactersWithSpaces>
+        <Version>14</Version>
+    </DocumentProperties>
+    <fonts>
+        <defaultFonts ascii="Calibri" fareast="宋体" h-ansi="Calibri" cs="Times New Roman"/>
+        <font name="Times New Roman">
+            <panose-1 val="02020603050405020304"/>
+            <charset val="00"/>
+            <family val="Roman"/>
+            <pitch val="variable"/>
+            <sig usb-0="E0002AFF" usb-1="C0007841" usb-2="00000009" usb-3="00000000" csb-0="000001FF" csb-1="00000000"/>
+        </font>
+        <font name="宋体">
+            <altName val="SimSun"/>
+            <panose-1 val="02010600030101010101"/>
+            <charset val="86"/>
+            <family val="auto"/>
+            <pitch val="variable"/>
+            <sig usb-0="00000003" usb-1="288F0000" usb-2="00000016" usb-3="00000000" csb-0="00040001" csb-1="00000000"/>
+        </font>
+        <font name="Cambria Math">
+            <panose-1 val="02040503050406030204"/>
+            <charset val="00"/>
+            <family val="Roman"/>
+            <pitch val="variable"/>
+            <sig usb-0="E00002FF" usb-1="420024FF" usb-2="00000000" usb-3="00000000" csb-0="0000019F" csb-1="00000000"/>
+        </font>
+        <font name="Calibri">
+            <panose-1 val="020F0502020204030204"/>
+            <charset val="00"/>
+            <family val="Swiss"/>
+            <pitch val="variable"/>
+            <sig usb-0="E10002FF" usb-1="4000ACFF" usb-2="00000009" usb-3="00000000" csb-0="0000019F" csb-1="00000000"/>
+        </font>
+        <font name="@宋体">
+            <panose-1 val="02010600030101010101"/>
+            <charset val="86"/>
+            <family val="auto"/>
+            <pitch val="variable"/>
+            <sig usb-0="00000003" usb-1="288F0000" usb-2="00000016" usb-3="00000000" csb-0="00040001" csb-1="00000000"/>
+        </font>
+    </fonts>
+    <styles>
+        <versionOfBuiltInStylenames val="7"/>
+        <latentStyles defLockedState="off" latentStyleCount="267">
+            <lsdException name="Normal"/>
+            <lsdException name="heading 1"/>
+            <lsdException name="heading 2"/>
+            <lsdException name="heading 3"/>
+            <lsdException name="heading 4"/>
+            <lsdException name="heading 5"/>
+            <lsdException name="heading 6"/>
+            <lsdException name="heading 7"/>
+            <lsdException name="heading 8"/>
+            <lsdException name="heading 9"/>
+            <lsdException name="toc 1"/>
+            <lsdException name="toc 2"/>
+            <lsdException name="toc 3"/>
+            <lsdException name="toc 4"/>
+            <lsdException name="toc 5"/>
+            <lsdException name="toc 6"/>
+            <lsdException name="toc 7"/>
+            <lsdException name="toc 8"/>
+            <lsdException name="toc 9"/>
+            <lsdException name="caption"/>
+            <lsdException name="Title"/>
+            <lsdException name="Default Paragraph Font"/>
+            <lsdException name="Subtitle"/>
+            <lsdException name="Strong"/>
+            <lsdException name="Emphasis"/>
+            <lsdException name="Table Grid"/>
+            <lsdException name="Placeholder Text"/>
+            <lsdException name="No Spacing"/>
+            <lsdException name="Light Shading"/>
+            <lsdException name="Light List"/>
+            <lsdException name="Light Grid"/>
+            <lsdException name="Medium Shading 1"/>
+            <lsdException name="Medium Shading 2"/>
+            <lsdException name="Medium List 1"/>
+            <lsdException name="Medium List 2"/>
+            <lsdException name="Medium Grid 1"/>
+            <lsdException name="Medium Grid 2"/>
+            <lsdException name="Medium Grid 3"/>
+            <lsdException name="Dark List"/>
+            <lsdException name="Colorful Shading"/>
+            <lsdException name="Colorful List"/>
+            <lsdException name="Colorful Grid"/>
+            <lsdException name="Light Shading Accent 1"/>
+            <lsdException name="Light List Accent 1"/>
+            <lsdException name="Light Grid Accent 1"/>
+            <lsdException name="Medium Shading 1 Accent 1"/>
+            <lsdException name="Medium Shading 2 Accent 1"/>
+            <lsdException name="Medium List 1 Accent 1"/>
+            <lsdException name="Revision"/>
+            <lsdException name="List Paragraph"/>
+            <lsdException name="Quote"/>
+            <lsdException name="Intense Quote"/>
+            <lsdException name="Medium List 2 Accent 1"/>
+            <lsdException name="Medium Grid 1 Accent 1"/>
+            <lsdException name="Medium Grid 2 Accent 1"/>
+            <lsdException name="Medium Grid 3 Accent 1"/>
+            <lsdException name="Dark List Accent 1"/>
+            <lsdException name="Colorful Shading Accent 1"/>
+            <lsdException name="Colorful List Accent 1"/>
+            <lsdException name="Colorful Grid Accent 1"/>
+            <lsdException name="Light Shading Accent 2"/>
+            <lsdException name="Light List Accent 2"/>
+            <lsdException name="Light Grid Accent 2"/>
+            <lsdException name="Medium Shading 1 Accent 2"/>
+            <lsdException name="Medium Shading 2 Accent 2"/>
+            <lsdException name="Medium List 1 Accent 2"/>
+            <lsdException name="Medium List 2 Accent 2"/>
+            <lsdException name="Medium Grid 1 Accent 2"/>
+            <lsdException name="Medium Grid 2 Accent 2"/>
+            <lsdException name="Medium Grid 3 Accent 2"/>
+            <lsdException name="Dark List Accent 2"/>
+            <lsdException name="Colorful Shading Accent 2"/>
+            <lsdException name="Colorful List Accent 2"/>
+            <lsdException name="Colorful Grid Accent 2"/>
+            <lsdException name="Light Shading Accent 3"/>
+            <lsdException name="Light List Accent 3"/>
+            <lsdException name="Light Grid Accent 3"/>
+            <lsdException name="Medium Shading 1 Accent 3"/>
+            <lsdException name="Medium Shading 2 Accent 3"/>
+            <lsdException name="Medium List 1 Accent 3"/>
+            <lsdException name="Medium List 2 Accent 3"/>
+            <lsdException name="Medium Grid 1 Accent 3"/>
+            <lsdException name="Medium Grid 2 Accent 3"/>
+            <lsdException name="Medium Grid 3 Accent 3"/>
+            <lsdException name="Dark List Accent 3"/>
+            <lsdException name="Colorful Shading Accent 3"/>
+            <lsdException name="Colorful List Accent 3"/>
+            <lsdException name="Colorful Grid Accent 3"/>
+            <lsdException name="Light Shading Accent 4"/>
+            <lsdException name="Light List Accent 4"/>
+            <lsdException name="Light Grid Accent 4"/>
+            <lsdException name="Medium Shading 1 Accent 4"/>
+            <lsdException name="Medium Shading 2 Accent 4"/>
+            <lsdException name="Medium List 1 Accent 4"/>
+            <lsdException name="Medium List 2 Accent 4"/>
+            <lsdException name="Medium Grid 1 Accent 4"/>
+            <lsdException name="Medium Grid 2 Accent 4"/>
+            <lsdException name="Medium Grid 3 Accent 4"/>
+            <lsdException name="Dark List Accent 4"/>
+            <lsdException name="Colorful Shading Accent 4"/>
+            <lsdException name="Colorful List Accent 4"/>
+            <lsdException name="Colorful Grid Accent 4"/>
+            <lsdException name="Light Shading Accent 5"/>
+            <lsdException name="Light List Accent 5"/>
+            <lsdException name="Light Grid Accent 5"/>
+            <lsdException name="Medium Shading 1 Accent 5"/>
+            <lsdException name="Medium Shading 2 Accent 5"/>
+            <lsdException name="Medium List 1 Accent 5"/>
+            <lsdException name="Medium List 2 Accent 5"/>
+            <lsdException name="Medium Grid 1 Accent 5"/>
+            <lsdException name="Medium Grid 2 Accent 5"/>
+            <lsdException name="Medium Grid 3 Accent 5"/>
+            <lsdException name="Dark List Accent 5"/>
+            <lsdException name="Colorful Shading Accent 5"/>
+            <lsdException name="Colorful List Accent 5"/>
+            <lsdException name="Colorful Grid Accent 5"/>
+            <lsdException name="Light Shading Accent 6"/>
+            <lsdException name="Light List Accent 6"/>
+            <lsdException name="Light Grid Accent 6"/>
+            <lsdException name="Medium Shading 1 Accent 6"/>
+            <lsdException name="Medium Shading 2 Accent 6"/>
+            <lsdException name="Medium List 1 Accent 6"/>
+            <lsdException name="Medium List 2 Accent 6"/>
+            <lsdException name="Medium Grid 1 Accent 6"/>
+            <lsdException name="Medium Grid 2 Accent 6"/>
+            <lsdException name="Medium Grid 3 Accent 6"/>
+            <lsdException name="Dark List Accent 6"/>
+            <lsdException name="Colorful Shading Accent 6"/>
+            <lsdException name="Colorful List Accent 6"/>
+            <lsdException name="Colorful Grid Accent 6"/>
+            <lsdException name="Subtle Emphasis"/>
+            <lsdException name="Intense Emphasis"/>
+            <lsdException name="Subtle Reference"/>
+            <lsdException name="Intense Reference"/>
+            <lsdException name="Book Title"/>
+            <lsdException name="Bibliography"/>
+            <lsdException name="TOC Heading"/>
+        </latentStyles>
+        <style type="paragraph" default="on" styleId="a">
+            <name val="Normal"/>
+            <uiName val="正文"/>
+            <pPr>
+                <widowControl val="off"/>
+                <jc val="both"/>
+            </pPr>
+            <rPr>
+                <font val="Calibri"/>
+                <kern val="2"/>
+                <sz val="21"/>
+                <sz-cs val="22"/>
+                <lang val="EN-US" fareast="ZH-CN" bidi="AR-SA"/>
+            </rPr>
+        </style>
+        <style type="character" default="on" styleId="a0">
+            <name val="Default Paragraph Font"/>
+            <uiName val="默认段落字体"/>
+        </style>
+        <style type="table" default="on" styleId="a1">
+            <name val="Normal Table"/>
+            <uiName val="普通表格"/>
+            <rPr>
+                <font val="Calibri"/>
+                <lang val="EN-US" fareast="ZH-CN" bidi="AR-SA"/>
+            </rPr>
+            <tblPr>
+                <tblInd w="0" type="dxa"/>
+                <tblCellMar>
+                    <top w="0" type="dxa"/>
+                    <left w="108" type="dxa"/>
+                    <bottom w="0" type="dxa"/>
+                    <right w="108" type="dxa"/>
+                </tblCellMar>
+            </tblPr>
+        </style>
+        <style type="list" default="on" styleId="a2">
+            <name val="No List"/>
+            <uiName val="无列表"/>
+        </style>
+        <style type="paragraph" styleId="a3">
+            <name val="header"/>
+            <uiName val="页眉"/>
+            <basedOn val="a"/>
+            <link val="Char"/>
+            <rsid val="00FC36B0"/>
+            <pPr>
+                <pBdr>
+                    <bottom val="single" sz="6" bdrwidth="15" space="1" color="auto"/>
+                </pBdr>
+                <tabs>
+                    <tab val="center" pos="4153"/>
+                    <tab val="right" pos="8306"/>
+                </tabs>
+                <snapToGrid val="off"/>
+                <jc val="center"/>
+            </pPr>
+            <rPr>
+                <font val="Calibri"/>
+                <sz val="18"/>
+                <sz-cs val="18"/>
+            </rPr>
+        </style>
+        <style type="character" styleId="Char">
+            <name val="页眉 Char"/>
+            <link val="a3"/>
+            <rsid val="00FC36B0"/>
+            <rPr>
+                <sz val="18"/>
+                <sz-cs val="18"/>
+            </rPr>
+        </style>
+        <style type="paragraph" styleId="a4">
+            <name val="footer"/>
+            <uiName val="页脚"/>
+            <basedOn val="a"/>
+            <link val="Char0"/>
+            <rsid val="00FC36B0"/>
+            <pPr>
+                <tabs>
+                    <tab val="center" pos="4153"/>
+                    <tab val="right" pos="8306"/>
+                </tabs>
+                <snapToGrid val="off"/>
+                <jc val="left"/>
+            </pPr>
+            <rPr>
+                <font val="Calibri"/>
+                <sz val="18"/>
+                <sz-cs val="18"/>
+            </rPr>
+        </style>
+        <style type="character" styleId="Char0">
+            <name val="页脚 Char"/>
+            <link val="a4"/>
+            <rsid val="00FC36B0"/>
+            <rPr>
+                <sz val="18"/>
+                <sz-cs val="18"/>
+            </rPr>
+        </style>
+        <style type="table" styleId="a5">
+            <name val="Table Grid"/>
+            <uiName val="网格型"/>
+            <basedOn val="a1"/>
+            <rsid val="00024F1C"/>
+            <rPr>
+                <font val="Calibri"/>
+            </rPr>
+            <tblPr>
+                <tblInd w="0" type="dxa"/>
+                <tblBorders>
+                    <top val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                    <left val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                    <bottom val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                    <right val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                    <insideH val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                    <insideV val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                </tblBorders>
+                <tblCellMar>
+                    <top w="0" type="dxa"/>
+                    <left w="108" type="dxa"/>
+                    <bottom w="0" type="dxa"/>
+                    <right w="108" type="dxa"/>
+                </tblCellMar>
+            </tblPr>
+        </style>
+    </styles>
+    <shapeDefaults>
+        <shapedefaults ext="edit" spidmax="2049"/>
+        <shapelayout ext="edit">
+            <idmap ext="edit" data="1"/>
+        </shapelayout>
+    </shapeDefaults>
+    <docPr>
+        <view val="print"/>
+        <zoom percent="100"/>
+        <doNotEmbedSystemFonts/>
+        <bordersDontSurroundHeader/>
+        <bordersDontSurroundFooter/>
+        <proofState spelling="clean" grammar="clean"/>
+        <defaultTabStop val="420"/>
+        <drawingGridVerticalSpacing val="156"/>
+        <displayHorizontalDrawingGridEvery val="0"/>
+        <displayVerticalDrawingGridEvery val="2"/>
+        <punctuationKerning/>
+        <characterSpacingControl val="CompressPunctuation"/>
+        <optimizeForBrowser/>
+        <allowPNG/>
+        <validateAgainstSchema/>
+        <saveInvalidXML val="off"/>
+        <ignoreMixedContent val="off"/>
+        <alwaysShowPlaceholderText val="off"/>
+        <hdrShapeDefaults>
+            <shapedefaults ext="edit" spidmax="2049"/>
+        </hdrShapeDefaults>
+        <footnotePr>
+            <footnote type="separator">
+                <p rsidR="004E7D09" rsidRDefault="004E7D09" rsidP="00FC36B0">
+                    <r>
+                        <separator/>
+                    </r>
+                </p>
+            </footnote>
+            <footnote type="continuation-separator">
+                <p rsidR="004E7D09" rsidRDefault="004E7D09" rsidP="00FC36B0">
+                    <r>
+                        <continuationSeparator/>
+                    </r>
+                </p>
+            </footnote>
+        </footnotePr>
+        <endnotePr>
+            <endnote type="separator">
+                <p rsidR="004E7D09" rsidRDefault="004E7D09" rsidP="00FC36B0">
+                    <r>
+                        <separator/>
+                    </r>
+                </p>
+            </endnote>
+            <endnote type="continuation-separator">
+                <p rsidR="004E7D09" rsidRDefault="004E7D09" rsidP="00FC36B0">
+                    <r>
+                        <continuationSeparator/>
+                    </r>
+                </p>
+            </endnote>
+        </endnotePr>
+        <compat>
+            <spaceForUL/>
+            <balanceSingleByteDoubleByteWidth/>
+            <doNotLeaveBackslashAlone/>
+            <ulTrailSpace/>
+            <doNotExpandShiftReturn/>
+            <adjustLineHeightInTable/>
+            <breakWrappedTables/>
+            <snapToGridInCell/>
+            <wrapTextWithPunct/>
+            <useAsianBreakRules/>
+            <dontGrowAutofit/>
+            <useFELayout/>
+        </compat>
+        <rsids>
+            <rsidRoot val="003C4655"/>
+            <rsid val="00024F1C"/>
+            <rsid val="00262594"/>
+            <rsid val="00351C6E"/>
+            <rsid val="003C4655"/>
+            <rsid val="0041139B"/>
+            <rsid val="0049653D"/>
+            <rsid val="004E7D09"/>
+            <rsid val="0068787D"/>
+            <rsid val="00D77BEE"/>
+            <rsid val="00D95EA5"/>
+            <rsid val="00F853BC"/>
+            <rsid val="00FC36B0"/>
+        </rsids>
+    </docPr>
+    <body>
+        <sect>
+            <p rsidR="00D95EA5" rsidRPr="00FC36B0" rsidRDefault="00FC36B0" rsidP="00FC36B0">
+                <pPr>
+                    <jc val="center"/>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                        <sz val="44"/>
+                        <sz-cs val="44"/>
+                    </rPr>
+                </pPr>
+                <r rsidRPr="00FC36B0">
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                        <sz val="44"/>
+                        <sz-cs val="44"/>
+                    </rPr>
+                    <t>${title}</t>
+                </r>
+                <r rsidR="00024F1C">
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                        <font val="宋体"/>
+                        <sz val="44"/>
+                        <sz-cs val="44"/>
+                    </rPr>
+                    <t>报告表</t>
+                </r>
+            </p>
+            <p rsidR="00FC36B0" rsidRDefault="00024F1C" rsidP="00FC36B0">
+                <pPr>
+                    <jc val="left"/>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                </pPr>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                        <font val="宋体"/>
+                    </rPr>
+                    <t>填报单位：</t>
+                </r>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                    <t>${</t>
+                </r>
+                <proofErr type="spellStart"/>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                    <t>createUnit</t>
+                </r>
+                <proofErr type="spellEnd"/>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                    <t>}</t>
+                </r>
+            </p>
+            <tbl>
+                <tblPr>
+                    <tblW w="8370" type="dxa"/>
+                    <jc val="center"/>
+                    <tblBorders>
+                        <top val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                        <left val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                        <bottom val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                        <right val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                        <insideH val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                        <insideV val="single" sz="4" bdrwidth="10" space="0" color="auto"/>
+                    </tblBorders>
+                    <tblLook val="04A0"/>
+                </tblPr>
+                <tblGrid>
+                    <gridCol w="2092"/>
+                    <gridCol w="2092"/>
+                    <gridCol w="2093"/>
+                    <gridCol w="2093"/>
+                </tblGrid>
+                <tr rsidR="00024F1C" rsidRPr="0068787D" rsidTr="0068787D">
+                    <trPr>
+                        <trHeight val="985"/>
+                        <jc val="center"/>
+                    </trPr>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>事故编号</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="0049653D" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${id}</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2093" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>发生时间</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2093" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="0049653D" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${date}</t>
+                            </r>
+                        </p>
+                    </tc>
+                </tr>
+                <tr rsidR="00024F1C" rsidRPr="0068787D" rsidTr="0068787D">
+                    <trPr>
+                        <trHeight val="938"/>
+                        <jc val="center"/>
+                    </trPr>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>事故级别</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="0049653D" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${le</t>
+                            </r>
+                            <r rsidR="00351C6E" rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>vel</t>
+                            </r>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>}</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2093" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>发生地点</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2093" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="0049653D" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${place}</t>
+                            </r>
+                        </p>
+                    </tc>
+                </tr>
+                <tr rsidR="00024F1C" rsidRPr="0068787D" rsidTr="0068787D">
+                    <trPr>
+                        <trHeight val="985"/>
+                        <jc val="center"/>
+                    </trPr>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>事故分类</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="0049653D" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${type}</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2093" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>经济损失</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2093" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00024F1C" rsidRPr="0068787D" rsidRDefault="0049653D" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${</t>
+                            </r>
+                            <r rsidR="00351C6E" rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>loss</t>
+                            </r>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>}</t>
+                            </r>
+                        </p>
+                    </tc>
+                </tr>
+                <tr rsidR="00262594" rsidRPr="0068787D" rsidTr="0068787D">
+                    <trPr>
+                        <trHeight val="2214"/>
+                        <jc val="center"/>
+                    </trPr>
+                    <tc>
+                        <tcPr>
+                            <tcW w="2092" type="dxa"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00262594" rsidRPr="0068787D" rsidRDefault="00262594" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                    <font val="宋体"/>
+                                </rPr>
+                                <t>处理结果</t>
+                            </r>
+                        </p>
+                    </tc>
+                    <tc>
+                        <tcPr>
+                            <tcW w="6278" type="dxa"/>
+                            <gridSpan val="3"/>
+                            <shd val="clear" color="auto" fill="auto"/>
+                            <vAlign val="center"/>
+                        </tcPr>
+                        <p rsidR="00262594" rsidRPr="0068787D" rsidRDefault="00D77BEE" rsidP="0068787D">
+                            <pPr>
+                                <jc val="center"/>
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                            </pPr>
+                            <r rsidRPr="0068787D">
+                                <rPr>
+                                    <rFonts hint="fareast"/>
+                                </rPr>
+                                <t>${result}</t>
+                            </r>
+                        </p>
+                    </tc>
+                </tr>
+            </tbl>
+            <p rsidR="00FC36B0" rsidRDefault="00F853BC" rsidP="00FC36B0">
+                <pPr>
+                    <jc val="left"/>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                </pPr>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                        <font val="宋体"/>
+                    </rPr>
+                    <t>审核人：</t>
+                </r>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                    <t>${check}</t>
+                </r>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                        <font val="宋体"/>
+                    </rPr>
+                    <t>填表人：</t>
+                </r>
+                <r>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                    <t>${create}</t>
+                </r>
+            </p>
+            <p rsidR="00FC36B0" rsidRDefault="00FC36B0" rsidP="00FC36B0">
+                <pPr>
+                    <jc val="left"/>
+                    <rPr>
+                        <rFonts hint="fareast"/>
+                    </rPr>
+                </pPr>
+            </p>
+            <p rsidR="00FC36B0" rsidRDefault="00FC36B0" rsidP="00FC36B0">
+                <pPr>
+                    <jc val="left"/>
+                </pPr>
+            </p>
+            <sectPr rsidR="00FC36B0">
+                <pgSz w="11906" h="16838"/>
+                <pgMar top="1440" right="1800" bottom="1440" left="1800" header="851" footer="992" gutter="0"/>
+                <cols space="425"/>
+                <docGrid type="lines" line-pitch="312"/>
+            </sectPr>
+        </sect>
+    </body>
+</wordDocument>

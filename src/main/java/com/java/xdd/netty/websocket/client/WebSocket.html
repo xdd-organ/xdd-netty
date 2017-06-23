@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket 时间服务器</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var socket;
+        if (!window.WebSocket) {
+            window.WebSocket = window.MozWebSocket;
+        }
+        if (window.WebSocket) {
+            socket = new WebSocket("ws://localhost:8888/websocket");
+
+            socket.onmessage = function (event) {
+                console.log(event);
+                var ta = document.getElementById("responseText");
+                ta.value = ta.value + "\r\n" + event.data;
+            };
+
+            socket.onopen = function (event) {
+                console.log(event);
+                var ta = document.getElementById("responseText");
+                ta.value = "打开websocket服务正常，浏览器支持websocket";
+            }
+
+            socket.onclose = function (event) {
+                console.log(event);
+                var ta = document.getElementById("responseText");
+                ta.value = ta.value + "\r\nwebsocket连接关闭！";
+            }
+        } else {
+            alert("您的浏览器不支持websocket");
+        }
+        
+        function send(message) {
+            if (!window.WebSocket) {
+                return;
+            }
+            if (socket.readyState == WebSocket.OPEN) {
+                socket.send(message);
+            } else {
+                alert("websocket连接没有建立成功！")
+            }
+        }
+
+        function closeWebSocket() {
+            if (!window.WebSocket) {
+                return;
+            }
+            if (socket.readyState == WebSocket.OPEN) {
+                socket.close(1000);
+            } else {
+                alert("websocket连接没有建立成功！")
+            }
+        }
+    </script>
+
+    <form onsubmit="return false;">
+        <input type="text" name="message" value="netty"/><br><br>
+        <input type="button" value="发送websocket消息" onclick="send(this.form.message.value)">
+        &nbsp;&nbsp;&nbsp;<input type="button" onclick="closeWebSocket()" value="断开连接">
+        <hr color="blue"/>
+        <h3>服务器应答消息</h3>
+        <textarea id="responseText" style="width: 500px;height: 300px;"></textarea>
+    </form>
+
+</body>
+</html>
