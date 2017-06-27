@@ -1,8 +1,11 @@
 package com.java.xdd.netty.time.client;
 
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufAllocator;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.*;
+import io.netty.util.concurrent.EventExecutor;
+import org.junit.Test;
 
 import java.net.SocketAddress;
 
@@ -14,6 +17,11 @@ public class TimeClientHandler extends ChannelHandlerAdapter{
         req = ("query time order" + System.getProperty("line.separator")).getBytes();
     }
 
+    /**
+     * 当Channel变成活跃状态时被调用；Channel是连接/绑定、就绪的
+     * @param ctx
+     * @throws Exception
+     */
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         ByteBuf message;
@@ -22,6 +30,10 @@ public class TimeClientHandler extends ChannelHandlerAdapter{
             message.writeBytes(req);
             ctx.writeAndFlush(message);
         }
+        Channel channel = ctx.channel();
+        String name = ctx.name();
+        ByteBufAllocator alloc = ctx.alloc();
+        EventExecutor executor = ctx.executor();
     }
 
     /**
@@ -111,5 +123,14 @@ public class TimeClientHandler extends ChannelHandlerAdapter{
         EventLoop eventLoop = channel.eventLoop();
         Channel parent = channel.parent();
         ChannelId id = channel.id();
+    }
+
+    @Test
+    public void test() {
+        try {
+            assert false : "输入有误";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

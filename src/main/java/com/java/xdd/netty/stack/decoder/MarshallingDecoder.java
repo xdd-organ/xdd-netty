@@ -8,7 +8,7 @@ import java.io.IOException;
 public class MarshallingDecoder {
     private final Unmarshaller unmarshaller;
 
-    public MarshallingDecoder() throws IOException{
+    public MarshallingDecoder(){
         this.unmarshaller = null;
     }
 

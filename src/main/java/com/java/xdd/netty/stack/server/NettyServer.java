@@ -1,8 +1,10 @@
 package com.java.xdd.netty.stack.server;
 
+import com.java.xdd.netty.stack.decoder.NettyMessageDecoder;
+import com.java.xdd.netty.stack.encoder.NettyMessageEncoder;
+import com.java.xdd.netty.stack.handler.HeartBeatResponseHandler;
+import com.java.xdd.netty.stack.handler.LoginAuthResponseHandler;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
@@ -10,12 +12,12 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import io.netty.handler.timeout.ReadTimeoutHandler;
+import org.junit.Test;
 
-public class EchoServer {
+public class NettyServer {
     //使用指定分隔符
     public void bind(int port) {
         //配置服务端的NIO线程组
@@ -31,12 +33,11 @@ public class EchoServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            ByteBuf delimiter = Unpooled.copiedBuffer("$_".getBytes()); //使用$_做分隔符
-
-                            ch.pipeline().addLast(new DelimiterBasedFrameDecoder(1024, delimiter)); //1024最大消息长度
-                            //ch.pipeline().addLast(new FixedLengthFrameDecoder(20)); //长度分隔符
-                            ch.pipeline().addLast(new StringDecoder()); //接收到的消息转换成字符串
-                            ch.pipeline().addLast(new EchoServerHandler());
+                            ch.pipeline().addLast(new NettyMessageDecoder(1024 * 1024, 4, 4)); //解码
+                            ch.pipeline().addLast("messageEncoder", new NettyMessageEncoder()); //编码
+                            ch.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(50)); //
+                            ch.pipeline().addLast("loginAuthHandler", new LoginAuthResponseHandler()); //登录验证
+                            ch.pipeline().addLast("heartBeatHandler", new HeartBeatResponseHandler()); //心跳
                         }
                     });
 
@@ -56,6 +57,23 @@ public class EchoServer {
 
     public static void main(String[] args) {
         int port = 8888;
-        new EchoServer().bind(port);
+        new NettyServer().bind(port);
     }
+
+    @Test
+    public void test2() {
+        String a = "123456";
+        java.util.Base64.Encoder encoder = java.util.Base64.getEncoder();
+        byte[] encode = encoder.encode(a.getBytes());
+        String s = new String(encode);
+        System.out.println(s); //MTIzNDU2
+
+        java.util.Base64.Decoder decoder = java.util.Base64.getDecoder();
+        byte[] decode = decoder.decode(s.getBytes());
+        String s1 = new String(decode);
+        System.out.println(s1);
+    }
+
+
+
 }
